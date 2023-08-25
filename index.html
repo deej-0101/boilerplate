@@ -1,5 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+.menu {
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.coffee-column {
+    margin-right: 10px;
+}
+
+.coffee-list {
+    list-style: none;
+    padding: 0;
+}
+
+.coffee-list li {
+    margin-bottom: 10px;
+}
+
+.highlighted-item {
+    background-color: #ffeeba; /* Highlight color */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-column h3 {
+    font-size: 1em;
+}
+
+.coffee-list strong {
+    font-size: 1em;
+}
+
+.coffee-list p {
+    font-size: 80%;
+    margin: 0;
+    font-style: italic;
+}
+
+
+
+.pastry-column {
+    margin-left: 10px;
+}
+
+.menu-column h3 {
+    margin-top: 0;
+}
+
+.menu-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-column li {
+    margin-bottom: 10px;
+}
+  
+</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,17 +91,109 @@
         </nav>
     </header>
 
-    <section id="home" class="hero">
+<section id="home" class="hero">
         <h1>Welcome to CozyCup Café</h1>
         <p>Sip, Relax, Repeat.</p>
         <p>Discover Your Perfect Brew</p>
         <a href="#menu" class="cta-button">Explore Menu</a>
     </section>
 
-    <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <!-- Add menu items here -->
-    </section>
+<section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-container">
+        <div class="menu-column coffee-column">
+            <h3>Coffee</h3>
+            <ul class="coffee-list">
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li class="highlighted-item">
+                    <strong>Benguet Coffee (Signature Drink) <li style="font-size: 70%;">(Php 500.00)</li></strong>
+                    <p>
+                        Elevate Your Sip with Benguet Brilliance: Discover the Peak of Flavor in Every Cup of Premium Arabica. Crafted from the Heart of the Philippines, Our Coffee Offers a Taste of the Majestic Mountains in Each Sip.
+                    </p>
+                </li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>
+                    <strong>Civet Coffee<li style="font-size: 70%;">(Php 300.00)</li></strong>
+                    <p>
+                        Indulge in the luxurious taste of a rare delight handpicked by nature's connoisseurs.
+                    </p>
+                </li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>
+                    <strong>Barako Coffee<li style="font-size: 70%;">(Php 100.00)</li></strong>
+                    <p>
+                        A coffee adventure that ignites passion and fuels your day with power-packed aromas.
+                    </p>
+                </li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>
+                    <strong>Batangas Barako Coffee<li style="font-size: 70%;">(Php 200.00)</li></strong>
+                    <p>
+                        A rich and invigorating experience that awakens your senses with every sip.
+                    </p>
+                </li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>
+                    <strong>Espresso Coffee<li style="font-size: 70%;">(Php 100.00)</li></strong>
+                    <p>
+                        Espresso elegance, a concentrated symphony of flavor and energy.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-column pastry-column">
+            <h3>Pastry</h3>
+            <ul class="coffee-list">
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li class="highlighted-item">
+                    <strong>Ensaymada (Signature Dish)<li style="font-size: 70%;">(Php 50.00)</li></strong>
+                    <p>
+                        A soft and buttery brioche topped with cheese and sugar, a Filipino favorite.
+                    </p>
+                </li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>
+                    <strong>Buko Pie <li style="font-size: 70%;">(Php 30.00)</li></strong>
+                    <p>
+                        A delectable pastry filled with young coconut and a creamy custard, a taste of the tropics.
+                    </p>
+                </li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>
+                    <strong>Ube Roll <li style="font-size: 70%;">(Php 70.00)</li></strong>
+                    <p>
+                        A vibrant purple yam cake roll, a delightful Filipino dessert.
+                    </p>
+                </li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>
+                    <strong>Pastillas de Leche Tart <li style="font-size: 70%;">(Php 50.00)</li></strong>
+                    <p>
+                        A flaky tart filled with sweet milk candy, a nostalgic Filipino treat.
+                    </p>
+                </li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>
+                    <strong>Pandesal <li style="font-size: 70%;">(Php 10.00)</li></strong>
+                    <p>
+                        A classic Filipino bread roll, perfect with your morning coffee.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
 
     <section id="about" class="about">
         <h2>About Us</h2>
