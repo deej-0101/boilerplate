@@ -89,6 +89,47 @@
 .nav-right a {
     text-decoration: none;
 }
+
+.container {            /*added--*/
+  position: relative;
+  width: 20%;
+  margin: 5%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(114, 74, 56);
+  overflow: hidden;
+  width: 0;
+  opacity: 50%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}                                          /*--added*/
   
 </style>
 <head>
@@ -116,7 +157,12 @@
         
         <h1>Welcome to CozyCup Café</h1>
         <p>Life begins after coffee.</p>
-       
+        <div class="container">
+            <img src="img/1.png" alt="civcoffe" class="image">
+            <div class="overlay">
+              <div class="text">Civet Coffee</div>
+            </div>
+          </div>
         <a href="#menu" class="cta-button">Explore Menu</a> 
     </section>
 
