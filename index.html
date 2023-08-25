@@ -68,6 +68,26 @@
 .menu-column li {
     margin-bottom: 10px;
 }
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-right li {
+    margin-right: 20px;
+}
+
+.nav-right a {
+    text-decoration: none;
+}
   
 </style>
 <head>
@@ -99,57 +119,18 @@
     </section>
 
 <section id="menu" class="menu" style="background-color: rgb(255, 247, 237);">
-    <nav>
+    <nav class="nav-right">
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
             <li><a href="#home">Home</a></li>
-            <li> </li>
-            <li> </li>
             <li><a href="#about">About Us</a></li>
-            <li> </li>
-            <li> </li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        </nav>
+    </nav>
     <h2>Menu</h2>
     <div class="menu-container">
         <div class="menu-column coffee-column">
             <h3>Coffee</h3>
             <ul class="coffee-list">
-                <li>&nbsp;</li>
                 <li class="highlighted-item">
                     <strong>Benguet Coffee (Signature Drink) <li style="font-size: 70%;">(Php 500.00)</li></strong>
                     <p>
@@ -189,7 +170,6 @@
         <div class="menu-column pastry-column">
             <h3>Pastry</h3>
             <ul class="coffee-list">
-                <li> </li>
                 <li class="highlighted-item">
                     <strong>Ensaymada (Signature Dish)<li style="font-size: 70%;">(Php 50.00)</li></strong>
                     <p>
