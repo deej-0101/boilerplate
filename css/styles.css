@@ -46,19 +46,23 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background-image: url('bg_photo4.jpg'); 
+    background-position: center;
     background-size: cover;
-    color: brown;
+    color: rgb(186, 118, 88);
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 39px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 80px;
 }
 
 .cta-button {
