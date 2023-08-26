@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <style>
+.contact {
+    padding: 50px;
+}
+
+.contact-info, .contact-form, .map {
+    margin-bottom: 40px;
+}
+
 .menu {
     text-align: center;
     
@@ -73,6 +81,7 @@
 .nav-right {
     display: flex;
     justify-content: flex-end;
+    background-color: transparent;
 }
 
 .nav-right ul {
@@ -264,8 +273,41 @@
     </section>
 
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
+        <header>
+            <nav class="nav-right">
+                <ul>
+                    
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Café address: 123 Cozy Street, City</p>
+            <p>Phone number: (123) 456-7890</p>
+            <p>Email: info@cozycupcafe.com</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="map">
+            <!-- Replace with your actual map embed code -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2346.911534344401!2d118.73222786592966!3d9.777391652182702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b5635b6bd6d3ed%3A0x8b42cc60a81a12b9!2sPalawan%20State%20University!5e0!3m2!1sen!2sph!4v1693024078503!5m2!1sen!2sph" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
     </section>
 
     <footer>
