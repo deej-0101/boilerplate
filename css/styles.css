@@ -78,7 +78,7 @@ nav a:hover {
 
 .container{                     /*pics*/
     display: inline-block;
-    margin: 30px;
+    margin: 50px;
     margin-bottom: 250px;
     margin-top: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -94,7 +94,6 @@ nav a:hover {
     text-decoration: none;
     border-radius: 0px;
     opacity: 85%;
-    
 }
 
 .cta-button:hover {
