@@ -43,7 +43,10 @@ header h3{
 header ul{
     float: right;
     margin-left:1030px;
+<<<<<<< HEAD
     color: #d17d45;
+=======
+>>>>>>> 69078a2eb580d131b3f72a812b96c1e457370e43
 }
 
 nav ul {
@@ -101,6 +104,7 @@ nav a:hover {
     font-style: italic;
     text-shadow: 1px 1px #774c30;
     margin-top: 150px;
+<<<<<<< HEAD
     background-color: #bb825635;
     padding: 30px;
 }
@@ -108,13 +112,19 @@ nav a:hover {
 .hero h2:hover{
     background-color: #bb82565e;
     transition: all 0.4s ease-out;
+=======
+>>>>>>> 69078a2eb580d131b3f72a812b96c1e457370e43
 }
 
 .container{                     /*pics*/
     display: inline-block;
     margin: 40px;
     margin-bottom: 50px;
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+    margin-top: 60px;
+>>>>>>> 69078a2eb580d131b3f72a812b96c1e457370e43
     font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
@@ -208,6 +218,7 @@ nav a:hover {
     background-color: #bc7c51;
     background-image: url(bgmenu2.png);
    
+<<<<<<< HEAD
 }
 
 .menu p{
@@ -232,9 +243,34 @@ nav a:hover {
 
 .menu strong{
     color: #ede4d6;
+=======
+>>>>>>> 69078a2eb580d131b3f72a812b96c1e457370e43
 }
 
+.menu p{
+    color: #f8f2e0;
+}
+
+.menu-column{
+    background-color: #84451fbf;
+    border: none;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.menu h3{
+    font-size: 25px;
+    color: #f8f2e0;
+}
+
+.menu strong{
+    color: #ede4d6;
+}
+
+
+
 .menu h2 {
+<<<<<<< HEAD
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
@@ -254,6 +290,12 @@ nav a:hover {
     width: 500px;
     display: inline-flex;
     margin-top: 60px;
+=======
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: #f8f2e0;
+>>>>>>> 69078a2eb580d131b3f72a812b96c1e457370e43
 }
 
 .about {
