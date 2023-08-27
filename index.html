@@ -79,10 +79,11 @@
 .menu-column li {
     margin-bottom: 10px;
 }
+
 .nav-right {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+
 }
 
 .nav-right ul {
@@ -90,6 +91,7 @@
     padding: 0;
     margin: 0;
     display: flex;
+    text-align: center;
 }
 .nav-right li {
     margin-right: 20px;
@@ -110,7 +112,6 @@
     text-decoration: none;
     color: #ccc;
 }
-
 
 .container {            /*added--*/
   position: relative;
@@ -232,12 +233,14 @@
     </section>
 
 <section id="menu" class="menu">
+    <div class="headder">
     <h2>Menu</h2>
     <nav class="nav-right">
         <ul>
             <li><a href="#home">Back to Top</a></li>
         </ul>
     </nav>
+    </div>
     <div class="menu-container">
         <div class="menu-column coffee-column">
             <h3>Coffee</h3>
@@ -323,16 +326,15 @@
     </div>
 </section>
 <section id="about" class="about">
-    <header>
-        <nav>
-            <ul class="nav-right">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <div class="headder">
+        <h2>About Us</h2>
+        <nav class="nav-right">
+            <ul>
+                <li><a href="#home">Back to Top</a></li>
             </ul>
         </nav>
-    </header>
-        <h2>About Us</h2>
+    </div>
+    <div class="cafestory">
         <p> </p>
         <h3>Café Story: A Journey Through Filipino Coziness</h3>
         <br></br>
@@ -354,7 +356,9 @@
         
             Experience the essence of Filipino coziness at our café – where every moment is a chapter in the story of togetherness and joy.</p>
         <br></br>
+    </div>
 
+    <div class="meettheteam">
     <h2>Meet the Team</h2> 
     <div class="team-member">
         <img src="img/owner.jpg" alt="Café Owner">
@@ -378,7 +382,9 @@
         <br></br>
         Having honed his skills in renowned coffeehouses, Miguel brings his expertise to CozyCup Café, elevating every cup to a delightful experience. His dedication to perfecting each brew ensures that every sip tells a story of passion and precision.</p>
     </div>
-    
+    </div>
+
+    <div class="mission">
         <br></br>
         <h3>Café's Mission: Fostering Warmth in the Heart of Filipino Coffee Enthusiasts</h3>
         <br></br>
@@ -387,6 +393,7 @@
         In the heart of every cup we serve, we aim to infuse the warmth and hospitality that defines the Filipino way of life. We believe that a great coffee experience goes beyond the taste; it's about creating an environment where friendships are formed, conversations flow freely, and bonds are strengthened.
         <br></br>
         Our café is more than a place to enjoy coffee; it's a hub of connection, where individuals from different walks of life gather to celebrate their shared passion for the rich coffee heritage of the Philippines. With every visit, we hope to impart the unique sense of togetherness that the Filipino culture embodies – a warm welcome to all who seek comfort, community, and a taste of our coffee tradition.</p>
+    </div>
 </section>
 
     <section id="contact" class="contact">

@@ -32,6 +32,14 @@ nav {
     float: left;
 }
 
+.stick{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    padding: 5px;
+    background-color: #cae8ca;
+}
+
 header h3{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #d17d45;
@@ -44,6 +52,7 @@ header ul{
     float: right;
     margin-left:1030px;
     color: #d17d45;
+   
 }
 
 nav ul {
@@ -51,6 +60,8 @@ nav ul {
     display: flex;
     gap: 20px;
     margin-right: 15px;
+    
+    
 }
 
 nav a {
@@ -97,16 +108,20 @@ nav a:hover {
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 5px;
-    color: rgb(225, 144, 90);
+    color: #ffbd91;
     font-style: italic;
     text-shadow: 1px 1px #774c30;
-    margin-top: 150px;
-    background-color: #bb825635;
+    margin-top: 160px;
+    background-color: rgba(168, 102, 71, 0.589);
     padding: 30px;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
 }
 
 .hero h2:hover{
-    background-color: #bb82565e;
+    background-color: rgba(168, 102, 71, 0.734);
     transition: all 0.4s ease-out;
 }
 
@@ -122,6 +137,7 @@ nav a:hover {
 .footer {            
     margin-top: 10rem;                       /*footer*/
     background-color: #4c3c32d1;
+    
     
 }
 
@@ -254,22 +270,19 @@ nav a:hover {
     color: #ede4d6;
 }
 
-
-
 .menu h2 {
-    font-size: 35px;
+    font-size: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
     font-style: italic;
     color: #f8f2e0;
-    text-shadow: 1px 1px #774c30;
-    background-color:#68391b29 ;
-    padding: 30px;
-}
+    text-shadow: 4px 4px #774c30;
+    padding: 20px;
+    text-align: center;
+    background-image: url(ribbon.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-bottom: 3rem;
 
-.menu h2:hover{
-    background-color: #68391b5f;
-    transition: all 0.4s ease-out;
 } 
 
 .menu img{
