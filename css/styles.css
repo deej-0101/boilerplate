@@ -14,9 +14,10 @@ header {
     background-color: #ffffff92;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 0px;
-    position: sticky;
+    display: flex;
+ /*   position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 1;    */
 }
 
 nav {
@@ -28,8 +29,22 @@ nav {
 .logo img {
     max-width: 50px;
     margin-left: 15px;
+    float: left;
 }
 
+header h3{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #d17d45;
+    font-size: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+header ul{
+    float: right;
+    margin-left:1030px;
+    color: #d17d45;
+}
 
 nav ul {
     list-style: none;
@@ -40,7 +55,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #d17d45;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -52,10 +67,10 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('bg_photo4.jpg'); 
+    background-image: url('bgphoto5.jpg'); 
     background-position: center;
     background-size: cover;
-    color: rgb(186, 118, 88);
+    color: #d17d45;
 }
 
 .hero h1 {
@@ -70,7 +85,7 @@ nav a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     margin-bottom: 50px;
-    text-shadow: 1px 1px #533333;   
+    text-shadow: 1px 1px #533333;  
 }
 
 .logosagitna{                     /*  added logo sa gitna*/
@@ -81,31 +96,38 @@ nav a:hover {
 .hero h2 {
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
-    color: #c17b4c;
+    margin-bottom: 5px;
+    color: rgb(225, 144, 90);
     font-style: italic;
     text-shadow: 1px 1px #774c30;
-    margin-top: 100px;
+    margin-top: 150px;
+    background-color: #bb825635;
+    padding: 30px;
+}
+
+.hero h2:hover{
+    background-color: #bb82565e;
+    transition: all 0.4s ease-out;
 }
 
 .container{                     /*pics*/
     display: inline-block;
-    margin: 50px;
-    margin-bottom: 200px;
-    margin-top: 60px;
+    margin: 40px;
+    margin-bottom: 50px;
+    margin-top: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
 
-.footer {                                   /*footer*/
-    background-color: #ffffffb0;
-    padding-bottom: 4px;
+.footer {            
+    margin-top: 10rem;                       /*footer*/
+    background-color: #4c3c32d1;
+    
 }
 
 .foooter {
-    width: 80%;
+    width: 90%;
     height: 40vh;
-    background-color: #7e685b;
     color: #f8f2e0;
     display: flex;
     justify-content: center;
@@ -116,12 +138,15 @@ nav a:hover {
 .footer-heading{
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
+    margin-right: 15rem;
+    margin-top: 4rem;
 }
 
 .footer-heading h3{
     margin-bottom: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-flex;
+    float: left;
 }
 
 .footer-heading p{
@@ -130,11 +155,15 @@ nav a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
     margin-bottom: 0.5rem;
+    display: inline-flex;
 }
+
 
 .footer-heading img{
     max-width: 20px;
     margin-bottom: 0.5rem;
+    display: inline-flex;
+    
 }
 
 .footer-newsletter{
@@ -142,8 +171,8 @@ nav a:hover {
 }
 
 #footer-email{
-    width: 250px;
-    height: 40px;
+    width: 220px;
+    height: 30px;
     border-radius: 4px;
     padding-left: 0.5rem;
     font-size: 1rem;
@@ -156,7 +185,7 @@ nav a:hover {
 
 #footer-email-btn{
     width:100px;
-    height: 40px;
+    height: 30px;
     border-radius: 4px;
     background-color: #c17b4c;
     outline:none;
@@ -176,11 +205,55 @@ nav a:hover {
 .menu {
     padding: 100px 0;
     text-align: center;
+    background-color: #bc7c51;
+    background-image: url(bgmenu2.png);
+   
+}
+
+.menu p{
+    color: #f8f2e0;
+}
+
+.menu-column{
+    background-color: #68391bb4;
+    border: none;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.menu h3{
+    font-size: 25px;
+    color: #f8f2e0;
+    background-color: #bb8156c8; /* Highlight color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu strong{
+    color: #ede4d6;
 }
 
 .menu h2 {
-    font-size: 30px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
+    font-style: italic;
+    color: #f8f2e0;
+    text-shadow: 1px 1px #774c30;
+    background-color:#68391b29 ;
+    padding: 30px;
+}
+
+.menu h2:hover{
+    background-color: #68391b5f;
+    transition: all 0.4s ease-out;
+} 
+
+.menu img{
+    width: 500px;
+    display: inline-flex;
+    margin-top: 60px;
 }
 
 .about {
