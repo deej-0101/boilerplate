@@ -43,7 +43,10 @@ header h3{
 header ul{
     float: right;
     margin-left:1030px;
+<<<<<<< HEAD
     color: #d17d45;
+=======
+>>>>>>> dd990195de7daf25627f09f9e13f64d8648730b7
 }
 
 nav ul {
@@ -85,7 +88,11 @@ nav a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     margin-bottom: 50px;
+<<<<<<< HEAD
     text-shadow: 1px 1px #533333;  
+=======
+    text-shadow: 1px 1px #533333;   
+>>>>>>> dd990195de7daf25627f09f9e13f64d8648730b7
 }
 
 .logosagitna{                     /*  added logo sa gitna*/
@@ -96,6 +103,7 @@ nav a:hover {
 .hero h2 {
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+<<<<<<< HEAD
     margin-bottom: 5px;
     color: rgb(225, 144, 90);
     font-style: italic;
@@ -108,13 +116,24 @@ nav a:hover {
 .hero h2:hover{
     background-color: #bb82565e;
     transition: all 0.4s ease-out;
+=======
+    margin-bottom: 20px;
+    color: #c17b4c;
+    font-style: italic;
+    text-shadow: 1px 1px #774c30;
+    margin-top: 150px;
+>>>>>>> dd990195de7daf25627f09f9e13f64d8648730b7
 }
 
 .container{                     /*pics*/
     display: inline-block;
     margin: 40px;
     margin-bottom: 50px;
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+    margin-top: 60px;
+>>>>>>> dd990195de7daf25627f09f9e13f64d8648730b7
     font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
@@ -234,7 +253,30 @@ nav a:hover {
     color: #ede4d6;
 }
 
+.menu p{
+    color: #f8f2e0;
+}
+
+.menu-column{
+    background-color: #84451fbf;
+    border: none;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.menu h3{
+    font-size: 25px;
+    color: #f8f2e0;
+}
+
+.menu strong{
+    color: #ede4d6;
+}
+
+
+
 .menu h2 {
+<<<<<<< HEAD
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
@@ -254,6 +296,12 @@ nav a:hover {
     width: 500px;
     display: inline-flex;
     margin-top: 60px;
+=======
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: #f8f2e0;
+>>>>>>> dd990195de7daf25627f09f9e13f64d8648730b7
 }
 
 .about {
