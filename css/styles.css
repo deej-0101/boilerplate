@@ -294,7 +294,7 @@ nav a:hover {
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #ede4d6;
+    background-color: #e4c8af;
 }
 
 .about h2 {
@@ -302,17 +302,31 @@ nav a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     color: #f8f2e0;
-    text-shadow: 4px 4px #774c30;
     padding: 150px;
     text-align: center;
-    background-image: url(bgabout.jpg);
+    background-image: url(about3.jpg);
     background-position:center;
     background-repeat: no-repeat;
     margin-bottom: 3rem;
     background-size: cover;
-    margin-left: 5rem;
-    margin-right: 5rem;
-   
+}
+
+.cafestory{
+    align-items: center;
+    justify-content: center;
+}
+
+.cafestory img{
+    max-width: 40%;
+    max-height: 35%;
+    float: left;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.cafestory p{
+    float: left;
+    font-size: 12px;
 }
 
 .about p {
