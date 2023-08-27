@@ -281,7 +281,7 @@ nav a:hover {
     background-image: url(ribbon.png);
     background-position:center;
     background-repeat: no-repeat;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 
 } 
 
@@ -296,6 +296,7 @@ nav a:hover {
     text-align: center;
     background-color: #e4c8af;
 }
+
 
 .about h2 {
     font-size: 70px;
@@ -322,11 +323,19 @@ nav a:hover {
     float: left;
     margin-left: 3rem;
     margin-top: 5rem;
+    margin-right: 2rem;
 }
 
-.cafestory p{
+.cafestory h3{
+    font-size: 30px;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.storytext{
     float: left;
-    font-size: 12px;
+    font-size: 10px;
+    margin-right: 1rem;
 }
 
 .about p {
