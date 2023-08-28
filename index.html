@@ -1,6 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Footer styling */
+        .footer {
+            position: sticky;
+            bottom: 0;
+            background-color: rgba(69, 27, 8, 0.726);
+            padding: 10px 0;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            padding: 0 5px;
+            background-size: cover;
+        }
+
+        .footer-heading {
+            flex: 1;
+            text-align: center;
+        }
+
+        .footer-heading h3 {
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        .socmedlinks img {
+            width: 15px;
+            margin: 10px 10px;
+        }
+        .socmedlinks h3{
+            color: rgb(218, 153, 124);
+        }
+
+        .headers{
+            display: flex;
+            align-items: center;
+        }
+        .headers a{
+            color: rgb(218, 153, 124);
+            font-size: 15px;
+        }
+        .contacts p{
+            color: rgb(218, 153, 124);
+        }
+        .contacts h3{
+            color: rgb(218, 153, 124);
+        }
 .contact {
     padding: 50px;
 }
@@ -37,8 +89,8 @@
 .menu-column {
     flex: 1;
     padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
+    border: 1px solid #552f2f;
+    background-color: #613737b6;
 }
 
 .coffee-column {
@@ -67,8 +119,6 @@
     margin: 0;
     font-style: italic;
 }
-
-
 
 .pastry-column {
     margin-left: 10px;
@@ -157,15 +207,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}                                          /*--added*/
-  
-</style>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+} 
+    </style>
     <title>CozyCup Café</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -214,13 +260,13 @@
               <div class="text">Buko Pie</div>
             </div>
         </div> 
-        <div class= "footer">
-            <div class="foooter">
+
+            <div class="footer">
                 <div class="footer-heading contacts">
                 <h3>Contact Us</h3>
-                <p>Café address: 123 Cozy Street, City</p>
-                <p>Phone number: (123) 456-7890</p>
-                <p>Email: info@cozycupcafe.com</p>
+                <p style="font-size: 15px;">Café address: 123 Cozy Street, City</p>
+                <p style="font-size: 15px;">Phone number: (123) 456-7890</p>
+                <p style="font-size: 15px;">Email: info@cozycupcafe.com</p>
                 </div>
                 <div class="footer-heading socmedlinks">
                     <h3>Follow Us</h3>
@@ -228,13 +274,16 @@
                     <a href= "https://www.facebook.com/"> <img src="img/fb.png" alt="fblogo" class="image"> </a>
                     <a href= "https://instagram.com"> <img src="img/insta.png" alt="instalogo" class="image"> </a>
                 </div>
-                <div class="footer-heading newsletter">
-                    <h3>Join Our Newsletter</h3>
-                    <input type="email" placeholder="Enter your email here" id="footer-email">
-                    <input type="submit" value="Sign Up" id="footer-email-btn">
+
+                <div class="footer-heading headers">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
     </section>
 
 <section id="menu" class="menu">
@@ -326,12 +375,33 @@
             </ul>
         </div>
     </div>
-    <div class="footersamenu">
-        <img src="img/footer.png" alt="kopi" class="image">
+
+    <div class="footer">
+        <div class="footer-heading contacts">
+        <h3>Contact Us</h3>
+        <p style="font-size: 15px;">Café address: 123 Cozy Street, City</p>
+        <p style="font-size: 15px;">Phone number: (123) 456-7890</p>
+        <p style="font-size: 15px;">Email: info@cozycupcafe.com</p>
+        </div>
+        <div class="footer-heading socmedlinks">
+            <h3>Follow Us</h3>
+            <a href= "https://twitter.com/home"> <img src="img/twt.png" alt="twitterlogo" class="image"> </a>
+            <a href= "https://www.facebook.com/"> <img src="img/fb.png" alt="fblogo" class="image"> </a>
+            <a href= "https://instagram.com"> <img src="img/insta.png" alt="instalogo" class="image"> </a>
+        </div>
+        <div class="footer-heading headers">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </div>
 </section>
 
 <section id="about" class="about">
+<<<<<<< HEAD
     <div class="headder">
         <h2>About Us</h2>
         <nav class="nav-right">
@@ -346,6 +416,10 @@
         </div>
         <div class="storytext">
         
+=======
+        <h2>About Us</h2>
+        <p> </p>
+>>>>>>> NewBranch
         <h3>Café Story: A Journey Through Filipino Coziness</h3>
         
         <p> Welcome to our cozy café, where we invite you to step into a world of warmth, comfort, and delightful flavors. Our café is not just a place to savor delicious treats, but a journey through Filipino coziness, where every cup of coffee and every bite of pastry carries a story.</p>
@@ -404,6 +478,7 @@
         In the heart of every cup we serve, we aim to infuse the warmth and hospitality that defines the Filipino way of life. We believe that a great coffee experience goes beyond the taste; it's about creating an environment where friendships are formed, conversations flow freely, and bonds are strengthened.
         <br></br>
         Our café is more than a place to enjoy coffee; it's a hub of connection, where individuals from different walks of life gather to celebrate their shared passion for the rich coffee heritage of the Philippines. With every visit, we hope to impart the unique sense of togetherness that the Filipino culture embodies – a warm welcome to all who seek comfort, community, and a taste of our coffee tradition.</p>
+<<<<<<< HEAD
     </div>
 </section>
 
@@ -413,6 +488,39 @@
             <div class="footer-heading contacts">
             <h3>Contact Us</h3>
             <p>Café address: 123 Cozy Street, City</p>
+=======
+        <div class="footer">
+            <div class="footer-heading contacts">
+            <h3>Contact Us</h3>
+            <p style="font-size: 15px;">Café address: 123 Cozy Street, City</p>
+            <p style="font-size: 15px;">Phone number: (123) 456-7890</p>
+            <p style="font-size: 15px;">Email: info@cozycupcafe.com</p>
+            </div>
+            <div class="footer-heading socmedlinks">
+                <h3>Follow Us</h3>
+                <a href= "https://twitter.com/home"> <img src="img/twt.png" alt="twitterlogo" class="image"> </a>
+                <a href= "https://www.facebook.com/"> <img src="img/fb.png" alt="fblogo" class="image"> </a>
+                <a href= "https://instagram.com"> <img src="img/insta.png" alt="instalogo" class="image"> </a>
+            </div>
+            <div class="footer-heading headers">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-info"
+            <br></br>
+            <h1>Contact Information</h1>
+            <br></br>
+            <br></br>
+            <p>Café address: 123 Barangay Tiniguiban, Puerto Princesa City</p>
+>>>>>>> NewBranch
             <p>Phone number: (123) 456-7890</p>
             <p>Email: info@cozycupcafe.com</p>
             </div>
@@ -444,6 +552,28 @@
         <div class="map">
             <p>Find Us At</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2346.911534344401!2d118.73222786592966!3d9.777391652182702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b5635b6bd6d3ed%3A0x8b42cc60a81a12b9!2sPalawan%20State%20University!5e0!3m2!1sen!2sph!4v1693024078503!5m2!1sen!2sph" width="700" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="footer">
+            <div class="footer-heading contacts">
+            <h3>Contact Us</h3>
+            <p style="font-size: 15px;">Café address: 123 Cozy Street, City</p>
+            <p style="font-size: 15px;">Phone number: (123) 456-7890</p>
+            <p style="font-size: 15px;">Email: info@cozycupcafe.com</p>
+            </div>
+            <div class="footer-heading socmedlinks">
+                <h3>Follow Us</h3>
+                <a href= "https://twitter.com/home"> <img src="img/twt.png" alt="twitterlogo" class="image"> </a>
+                <a href= "https://www.facebook.com/"> <img src="img/fb.png" alt="fblogo" class="image"> </a>
+                <a href= "https://instagram.com"> <img src="img/insta.png" alt="instalogo" class="image"> </a>
+            </div>
+            <div class="footer-heading headers">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </section>
 
