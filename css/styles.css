@@ -119,7 +119,7 @@ nav a:hover {
   
 }
 
-.footer {            
+.footerr {            
     margin-top: 10rem;                       /*footer*/
     background-color: #4c3c32d1;
     
@@ -135,21 +135,21 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.footer-heading{
+.footer-headingg{
     display: flex;
     flex-direction: column;
     margin-right: 15rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
-.footer-heading h3{
+.footer-headingg h3{
     margin-bottom: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-flex;
     float: left;
 }
 
-.footer-heading p{
+.footer-headingg p{
     font-style: none;
     text-shadow: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -159,7 +159,7 @@ nav a:hover {
 }
 
 
-.footer-heading img{
+.footer-headingg img{
     max-width: 20px;
     margin-bottom: 0.5rem;
     display: inline-flex;
@@ -234,43 +234,21 @@ nav a:hover {
     color: #ede4d6;
 }
 
-.menu p{
-    color: #f8f2e0;
-}
-
-.menu-column{
-    background-color: #84451fbf;
-    border: none;
-    margin: 1rem;
-    border-radius: 10px;
-}
-
-.menu h3{
-    font-size: 25px;
-    color: #f8f2e0;
-}
-
-.menu strong{
-    color: #ede4d6;
-}
-
-
-
 .menu h2 {
-    font-size: 35px;
+    font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
     font-style: italic;
     color: #f8f2e0;
-    text-shadow: 1px 1px #774c30;
-    background-color:#68391b29 ;
+    text-shadow: 2px 2px #c17e50;
     padding: 30px;
+    background-image: url(ribbon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
-.menu h2:hover{
-    background-color: #68391b5f;
-    transition: all 0.4s ease-out;
-} 
+
 
 .menu img{
     width: 500px;
@@ -284,9 +262,19 @@ nav a:hover {
     background-color: #ede4d6;
 }
 
-.about h2 {
-    font-size: 30px;
+.about h1 {
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
+    font-style: italic;
+    color: #f8f2e0;
+    text-shadow: 2px 2px #c17e50;
+    background-image: url(about.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10rem;
 }
 
 .about p {
@@ -300,21 +288,78 @@ nav a:hover {
     text-align: center;
     background-color: #4c3c32;
     color: white;
+    padding: 10px 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0 5px;
+    background-size: cover;
 }
 
+
 .contact h2 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
 .contact p {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 40px;
 }
 
 footer {
-    background-color: #4c3c32;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+    position: sticky;
+    bottom: 0;
+    background-color: rgba(69, 27, 8, 0.574);
+    padding: 10px 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0 5px;
+    background-size: cover;
 }
+
+.footer-heading {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-heading headers{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15rem;
+    margin-top: 2rem;
+}
+
+.socmedlinkss img {
+    max-width: 20px;
+    margin-bottom: 0.5rem;
+    margin : 20px;
+    display: inline-flex;
+}
+
+
+.headerss{
+    display: flex;
+    align-items: center;
+ }
+
+.headerss a{
+    color: rgb(218, 153, 124);
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    font-display: none;
+}
+.contactss p{
+    color: rgb(218, 153, 124);
+}
+
