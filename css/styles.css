@@ -362,6 +362,12 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
+.contact-form{
+    display: inline-flex;
+}
+
+
+
 footer {
     background-color: #4c3c32;
     color: white;

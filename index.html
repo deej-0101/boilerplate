@@ -5,15 +5,22 @@
     padding: 50px;
 }
 
-.contact-info, .contact-form, .map {
-    margin-bottom: 40px;
+.contact-info{
+    margin-bottom: 20rem;
+}
+
+.contact-form{
+    margin-bottom:20rem;
+}
+.map{
+    margin-bottom: 10rem;
 }
 
 .contact-form {
-    border: 6px solid #ccc;
+    border: 2px solid #ccc;
     padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30rem;
+    margin-right: 30rem;
 }
 
 
@@ -401,69 +408,41 @@
 </section>
 
     <section id="contact" class="contact">
-        <nav class="nav-right2">
-                <ul>
-                    <li> </li>
-                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                    <li> </li>
-                    <li><a href="tel:(123) 456-7890">Call Us</a></li>
-                    <li> </li>
-                    <li><a href="mailto: info@cozycup.com">Email</a></li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#about">About Us</a></li>
-                </ul>
-        </nav>
-        <div class="contact-info"
-            <br></br>
-            <h1>Contact Information</h1>
-            <br></br>
-            <br></br>
-            <p>Café address: 123 Barangay Tiniguiban, Puerto Princesa City</p>
+        <h2>Contacts</h2>
+        <div class="foooter">
+            <div class="footer-heading contacts">
+            <h3>Contact Us</h3>
+            <p>Café address: 123 Cozy Street, City</p>
             <p>Phone number: (123) 456-7890</p>
             <p>Email: info@cozycupcafe.com</p>
-        </div>
-        <div class="contact-form">
-            <h3>Contact Form</h3>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-    
-                <button type="submit">Send Message</button>
-            </form>
+            </div>
+            <div class="footer-heading socmedlinks">
+                <h3>Follow Us</h3>
+                <a href= "https://twitter.com/home"> <img src="img/twt.png" alt="twitterlogo" class="image"> </a>
+                <a href= "https://www.facebook.com/"> <img src="img/fb.png" alt="fblogo" class="image"> </a>
+                <a href= "https://instagram.com"> <img src="img/insta.png" alt="instalogo" class="image"> </a>
+            </div>
+            <div class="contact-form">
+                <h3>Contact Form</h3>
+                <form action="submit_form.php" method="post">
+                    <div class="imputname">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="inputemail">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="inputmessage">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
         </div>
         <div class="map">
+            <p>Find Us At</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2346.911534344401!2d118.73222786592966!3d9.777391652182702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b5635b6bd6d3ed%3A0x8b42cc60a81a12b9!2sPalawan%20State%20University!5e0!3m2!1sen!2sph!4v1693024078503!5m2!1sen!2sph" width="700" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </section>
